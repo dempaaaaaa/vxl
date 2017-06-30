@@ -1,0 +1,1147 @@
+               "RadialMenu"
+{
+//--------------------------------------------------------------
+	"Orders,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize smartlook"
+			"text"		"#L4D_rosetta_look"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"#L4D_rosetta_letsgo"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize _C4_BigStormHits01"
+			"text"		"Storm"
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerHurryUp"
+			"text"		"#L4D_rosetta_hurry"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize C5M1_intro002"
+			"text"		"Virgil 1"
+		}	
+		"South"
+		{
+			"command"	"vocalize C3M4Button1"
+			"text"		"Virgil 2"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize C5M5Button1"
+			"text"		"Virgil 3"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerWarnCareful"
+			"text"		"#L4D_rosetta_becareful"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerImWithYou"
+			"text"		"#L4D_rosetta_withyou"
+		}	
+	}
+
+	//--------------------------------------------------------------
+	"QA,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"#L4D_rosetta_ready"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerLaugh"
+			"text"		"#L4D_rosetta_laugh"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerTaunt"
+			"text"		"#L4D_rosetta_taunt"
+		}
+
+		"East"
+		{
+			"command"	"vocalize PlayerNegative"
+			"text"		"#L4D_rosetta_negative"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNo"
+			"text"		"#L4D_rosetta_no"
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerSorry"
+			"text"		"#L4D_rosetta_sorry"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerYes"
+			"text"		"#L4D_rosetta_yes"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurrah"
+			"text"		"#L4D_rosetta_hurrah"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerThanks"
+			"text"		"#L4D_rosetta_thankyou"
+		}
+	}
+
+	//--------------------------------------------------------------
+ 	"radial"
+	{
+		"Center"
+		{
+			"command"    "Vocalize Playeralsowarntank"
+			"text"       "Tank!"
+		}
+		"North"
+		{
+			"command"  	"vocalize PlayerYellRun"
+			"text"		"Run!"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerAlsoWarnBoomer"
+			"text"		"Boomer!"
+		}
+		"East"
+		{
+			"command"	"vocalize PlayerAlsoWarnHunter"
+			"text"		"Hunter!"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerAlsoWarnSmoker"
+			"text"		"Smoker!"
+		}
+		"South"
+		{
+			"command"    "Vocalize Playeralsowarnwitch"
+      		"text"       "Witch!"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerIncoming"
+			"text"		"Incoming!"
+		}
+		"West"
+		{
+    		"command"    "vocalize PlayerYouAreWelcome"
+   			"text"       "You are Welcome"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize callforrescue"
+			"text"		"Closet"
+		}
+	}
+
+	//--------------------------------------------------------------
+    "radial1"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerDeath"
+			"text"		"Scream"
+		}
+		"North"
+		{
+			"command"	"vocalize playerVomitInFace"
+			"text"		"Yuck"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerIncapacitated"
+			"text"		"Incap"
+		}
+		"East"
+		{
+        	"command"   "vocalize ScreamWhilePounced"
+			"text"      "Pounced"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize SurvivorJockeyed"
+			"text"		"Jockeyed"
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerGroundPoundedByTank"
+			"text"		"Tank Pound"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerChoke"
+			"text"		"Choke"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerFriendlyFire"
+			"text"		"Friendly Fire"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerLedgeHangEnd"
+			"text"		"Help!"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"radial2"
+	{
+		"Center"
+		{
+			"command"	"vocalize playeranswerlostcall"
+			"text"		"Swear"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerLedgeSave"
+			"text"		"Save"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerReviveFriend"
+			"text"		"Revive"
+		}
+		"East"
+		{
+			"command"	"vocalize useadrenaline"
+			"text"		"Adrenaline"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize relaxedsigh"
+			"text"		"Relaxed Sigh"
+		}
+		"South"
+		{
+			"command"	"vocalize RevivedByDefibrillator"
+			"text"		"Defib"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize witchgettingangry"
+			"text"		"Angry Witch"
+		}
+		"West"
+		{
+			"command"	"vocalize playertonguepullstart"
+			"text"		"Nooooo!"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerReviveFriendCritical"
+			"text"		"Assistance"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"francis"
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock049"
+			"text"		"What?"
+		}
+		"North"
+		{
+			"command"	"vocalize CrashYerKidding"
+			"text"		"Kidding?"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize Smalltown02_path01a"
+			"text"		"How you know?"
+		}
+		"East"
+		{
+			"command"	"vocalize C6M1Intro_21f"
+			"text"		"Vampires"
+		}
+		"SouthEast"
+		{
+			"command" 	"vocalize C7M3_saferoom017g"
+			"text"   	"Island"
+		}
+		"South"
+		{
+			"command"	"vocalize ConceptBlock635"
+			"text"		"Bright side"
+		}
+		"SouthWest"
+		{
+			"command" 	"vocalize ConceptBlock697"
+			"text"   	"Whatever"
+		}
+		"West"
+		{
+			"command"	"vocalize ConceptBlock596"
+			"text"		"Attention army"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock527"
+			"text"		"Boat"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"francis2"
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock709"
+			"text"		"Hate..."
+		}
+		"North"
+		{
+			"command"	"vocalize IntroAirport01bc"
+			"text"		"Hate planes"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize C7M3_saferoom012e"
+			"text"		"Hate plan"
+		}
+		"East"
+		{
+			"command"	"vocalize airport04_vana"
+			"text"		"Hate vans"
+		}
+		"SouthEast"
+		{
+			"command" 	"vocalize IntroHospital02"
+			"text"   	"Hate subways"
+		}
+		"South"
+		{
+			"command"	"vocalize Smalltown05_path03a"
+			"text"		"Hate water"
+		}
+		"SouthWest"
+		{
+			"command" 	"vocalize C7M3_saferoom014"
+			"text"   	"Hate fish"
+		}
+		"West"
+		{
+			"command"	"vocalize C7M3_saferoom002"
+			"text"		"Hate feelings"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize C7M3_saferoom013b"
+			"text"		"Hate, still"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"zoey"
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock035"
+			"text"		"What?"
+		}
+		"North"
+		{
+			"command"	"vocalize IntroFarm4"
+			"text"		"Lets do it"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock032"
+			"text"		"Open door!"
+		}
+		"East"
+		{
+			"command"	"vocalize C7M3_saferoom004b"
+			"text"		"Boo"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock037"
+			"text"		"What a dick"
+		}
+		"South"
+		{
+			"command"	"vocalize CrashCourseR01"
+			"text"		"Birds"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize ConceptBlock647"
+			"text"		"Game over"
+		}
+		"West"
+		{
+			"command"	"vocalize BounceReaction"
+			"text"		"Bounce"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock654"
+			"text"		"So yeah"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"zoey2"
+	{
+		"Center"
+		{
+			"command"	"vocalize C6M1Intro_15b"
+			"text"		"Sanders"
+		}
+		"North"
+		{
+			"command"	"vocalize IntroCrashR28"
+			"text"		"Zombie"
+		}
+		"NorthEast"
+		{
+            "command"   "vocalize C7M1_saferoom10a"
+            "text"      "Whatever"
+		}
+		"East"
+		{
+			"command"	"vocalize C6M1Intro_22b"
+			"text"		"Feel ya"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize CrashFinaleTruckResp02"
+			"text"		"Truck"
+		}
+		"South"
+		{
+			"command"	"vocalize C7M1_saferoom18"
+			"text"		"Island"
+		}
+		"SouthWest"
+		{
+			"command"   "vocalize crashcourser12"
+			"text"      "Steam"
+		}
+		"West"
+		{
+			"command"   "vocalize introcrashr01"
+			"text"      "Hate them?"
+		}
+		"NorthWest"
+		{
+			"command"   "vocalize c7m3_saferoom016c"
+			"text"      "Lotion"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"rochelle"
+	{
+		"Center"
+		{
+			"command"	"vocalize c5m3jets2"
+			"text"		"What doing?"
+		}
+		"North"
+		{
+			"command"	"vocalize _c2m2_kiddie02"
+			"text"		"KiddieLand"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize c1m3saferoom2d"
+			"text"		"Amen"
+		}
+		"East"
+		{
+			"command"	"vocalize worldintroc31c3"
+			"text"		"Pilot"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize c6m1intro_06d"
+			"text"		"Date"
+		}
+		"South"
+		{
+			"command"   "vocalize _c4m5_finalestart01"
+			"text"		"Virgil"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize dlc1_c6m2_saferoomconvo18a"
+			"text"		"Keith"
+		}
+		"West"
+		{
+			"command"	"vocalize c2m3safeintro002"
+			"text"		"Relaxing"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize worldc6m1_weddingwarn03b"
+			"text"		"Shut up!"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"rochelle2"
+	{
+		"Center"
+		{
+			"command"   "vocalize C6M1Intro_22a"
+			"text"		"Last woman"
+		}
+		"North"
+		{
+			"command"	"vocalize WorldC6M2_OnTourWalk101a"
+			"text"		"Shithole?"
+		}
+		"NorthEast"
+		{
+            "command"   "vocalize C1M4SafeRoom2b2"
+            "text"      "Jimmy Gibbs"
+		}
+		"East"
+		{
+            "command"   "vocalize C6M1Intro_20a"
+            "text"      "Serious?"
+		}
+		"SouthEast"
+		{
+            "command"   "vocalize DLC1_C6M2_SafeRoomConvo19a"
+            "text"      "Coach sexy"
+		}
+		"South"
+		{
+            "command"   "vocalize InfoRemC3M2Bathtub3"
+            "text"      "Fair enough"
+		}
+		"SouthWest"
+		{
+            "command"   "vocalize C6M1Intro_17d"
+            "text"      "Well, shit."
+		}
+		"West"
+		{
+			"command"	"vocalize C6M1Intro_14d"
+			"text"		"Con man"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize WorldC6M1_PostWedding02a"
+			"text"		"Your brain"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"nick"
+	{
+		"Center"
+		{
+			"command"	"vocalize InfoRemC3M3Unsanitarya2"
+			"text"		"What?"
+		}
+		"North"
+		{
+			"command"	"vocalize c6m1intro_15e"
+			"text"		"Joke"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize c5m3seegraveyard05"
+			"text"		"10 guns"
+		}
+		"East"
+		{
+			"command"	"vocalize c1m2saferoomb3"
+			"text"		"Whatever"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize c5m3alarmfieldnags02"
+			"text"		"Your mom's car"
+		}
+		"South"
+		{
+			"command"   "vocalize _c4m5_boatcoming01"
+			"text"		"Virgil"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize worldc6m2_ontourwalk101a"
+			"text"		"Shitwhole?"
+		}
+		"West"
+		{
+			"command"	"vocalize worldc6m2_insewer201a"
+			"text"		"Don't you dare"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize _C2M2_SeeSafehouse01"
+			"text"		"Tunnel of love"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"nick2"
+	{
+		"Center"
+		{
+			"command"	"vocalize DLC1_C6M2_SafeRoomConvo01b"
+			"text"		"Go to hell"
+		}
+		"North"
+		{
+			"command"	"vocalize C2M3SafeIntro010"
+			"text"		"Cheeseburger"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize _c4m2_seestation03"
+			"text"		"Farmer"
+		}
+		"East"
+		{
+			"command"	"vocalize C1M3SafeRoom2b"
+			"text"		"Hate Malls"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize _C2M2_Steak01"
+			"text"		"Cow"
+		}
+		"South"
+		{
+			"command"   "vocalize WorldC6M2_FinalWater01a"
+			"text"		"Hate Ellis"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize C6M1Intro_15a"
+			"text"		"Cupcake"
+		}
+		"West"
+		{
+			"command"	"vocalize RemWorldC6M1_WeddingWarn02"
+			"text"		"Coack cake"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize C6M1Intro_14c"
+			"text"		"This guy"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"coach"
+	{
+		"Center"
+		{
+			"command"   "vocalize DLC1_C6M2_SafeRoomConvo18c"
+            "text"      "What doing?"
+		}
+		"North"
+		{
+			"command"	"vocalize _C2M2_Kiddie01"
+			"text"		"Babysitting"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize c1m4saferoom2b5"
+			"text"		"Amen"
+		}
+		"East"
+		{
+			"command"	"vocalize c5m3jets2"
+			"text"		"Motherf-"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize _c2m3_coaster05"
+			"text"		"Not cool"
+		}
+		"South"
+		{
+			"command"	"vocalize _c4m5_boatcoming01"
+			"text"		"Virgil"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize worldc6m2_ontourwalk103a"
+			"text"		"Shut up"
+		}
+		"West"
+		{
+			"command"	"vocalize c2m5_button2yell"
+			"text"		"M.Riders"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize c1m4saferoom2a5"
+			"text"		"Move ass"
+		}
+	}
+
+	
+	 //--------------------------------------------------------------
+	"coach2"
+	{
+		"Center"
+		{
+			"command"   "vocalize C1M2SafeRoomb2"
+            "text"      "Attitude"
+		}
+		"North"
+		{
+			"command"	"vocalize _C2M2_CottonCandy01"
+			"text"		"Cotton candy"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize c4m1_InBurgerTank01"
+			"text"		"Burger"
+		}
+		"East"
+		{
+			"command"	"vocalize C6M1Intro_21d"
+			"text"		"Vampires"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize WorldC6M2_OnTourWalk101c"
+			"text"		"Shithole"
+		}
+		"South"
+		{
+			"command"	"vocalize WorldC6M1_WeddingWarn03a"
+			"text"		"Not now"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize WorldC6M2_InSewer101a"
+			"text"		"Shit"
+		}
+		"West"
+		{
+			"command"	"vocalize C6M1Intro_21g"
+			"text"		"Savannah"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize WorldC6M2_InSewer102a"
+			"text"		"PiggyBack"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"bill"
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock051"
+			"text"		"What?"
+		}
+		"North"
+		{
+			"command"	"vocalize ConceptBlock608"
+			"text"		"Dissing F."
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize c7m1_saferoom04b"
+			"text"		"You know?"
+		}
+		"East"
+		{
+			"command"	"vocalize c7m1_saferoom08b"
+			"text"		"Shut up!"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock663"
+			"text"		"Who-ho-ho!"
+		}
+		"South"
+		{
+			"command"	"vocalize crashfinalegeneratorspeakn"
+			"text"		"Too old"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize Airport04_08c"
+			"text"		"Christ"
+		}
+		"West"
+		{
+			"command"	"vocalize inforeminfo_trailerboat"
+			"text"		"Idiot"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock515"
+			"text"		"Hello?"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"bill2"
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock556"
+			"text"		"Hey!"
+		}
+		"North"
+		{
+			"command"	"vocalize Hospital04_path01a"
+			"text"		"Smell"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock611"
+			"text"		"War"
+		}
+		"East"
+		{
+			"command"	"vocalize C7M1_saferoom22"
+			"text"		"Good"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock639"
+			"text"		"Peace"
+		}
+		"South"
+		{
+			"command"	"vocalize IntroFarm4"
+			"text"		"Alrighty"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize C7M1_saferoom16a"
+			"text"		"Boat"
+		}
+		"West"
+		{
+			"command"	"vocalize Hospital02_path03c1"
+			"text"		"Topside"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize InfoReminfo_trailerboat"
+			"text"		"Trailer"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"louis"
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock050"
+			"text"		"What?"
+		}
+		"North"
+		{
+			"command"	"vocalize ConceptBlock019 "
+			"text"		"If we die"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize VampiresBeata"
+			"text"		"Zombies"
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock652"
+			"text"		"Whistle"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize crashfinalegenerator2onspk"
+			"text"		"Sweet Baby!"
+		}
+		"South"
+		{
+			"command"	"vocalize hospital05_path01b"
+			"text"		"Works for me"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize Farm01_path03a"
+			"text"		"Trailer"
+		}
+		"West"
+		{
+			"command"	"vocalize ConceptBlock658"
+			"text"		"Unstoppable"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock581"
+			"text"		"Hello?"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"louis2"
+	{
+		"Center"
+		{
+			"command"	"vocalize C7M2_saferoom02"
+			"text"		"Love"
+		}
+		"North"
+		{
+			"command"	"vocalize CrashCourseR04"
+			"text"		"Read"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize TakeShotgunGroovyLouis"
+			"text"		"Laugh"
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock594"
+			"text"		"We ok"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize IntroCrashR24"
+			"text"		"Parade"
+		}
+		"South"
+		{
+			"command"	"vocalize Farm01_path03a"
+			"text"		"Country"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize Airport04_08b"
+			"text"		"-shocked-"
+		}
+		"West"
+		{
+			"command"	"vocalize Farm03_path01a"
+			"text"		"Good feeling"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize C7M1_saferoom12"
+			"text"		"Pissed"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"ellis"
+	{
+		"Center"
+		{
+			"command"	"vocalize _c2m3_coaster03"
+			"text"		"Christmas"
+		}
+		"North"
+		{
+			"command"	"vocalize C2M1Intro_402"
+			"text"		"I love you"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize c1m3saferoom2d"
+			"text"		"Amen"
+		}
+		"East"
+		{
+			"command"	"vocalize c5m3seegraveyard06"
+			"text"		"Ghost"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize dlc1_c6m3_saferoomconvo01a"
+			"text"		"k.i.s.s.i.n.g."
+		}
+		"South"
+		{
+		    "command"   "vocalize _c4m5_boatcoming01"
+			"text"		"Virgil"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize _c4m2_Witchville05"
+			"text"		"Crying"
+		}
+		"West"
+		{
+			"command"	"vocalize c2m5_button2yell"
+			"text"		"Rock'n'Roll"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize c6m1intro_01c"
+			"text"		"Cmon man!"
+		}
+	}
+
+	 //--------------------------------------------------------------
+	"ellis2"
+	{
+		"Center"
+		{
+			"command"	"vocalize C6M2_OpenGate1b"
+			"text"		"Hey!"
+		}
+		"North"
+		{
+			"command"	"vocalize DLC1_C6M3_SafeRoomConvo08c"
+			"text"		"Kill biker"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize c4m1_wreck01"
+			"text"		"Nasty"
+		}
+		"East"
+		{
+			"command"	"vocalize InfoRemC3M2Bathtub2"
+			"text"		"Smell"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize C2M3SafeIntro006"
+			"text"		"Make out"
+		}
+		"South"
+		{
+		    "command"   "vocalize DLC1_C6M3_SafeRoomConvo03c"
+			"text"		"Turd"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize DLC1_C6M2_SafeRoomConvo16b"
+			"text"		"Nope"
+		}
+		"West"
+		{
+			"command"	"vocalize C2M3SafeIntro008"
+			"text"		"Tunnel of love"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize C3M2SafeRooma2"
+			"text"		"Mud"
+		}
+	}
+
+
+	//--------------------------------------------------------------
+	"select"
+	{
+		"Center"
+		{
+			"command"	""
+			"text"		""
+		}
+		"North"
+		{
+			"command"	"zoey"
+			"text"		"Zoey"
+		}
+		"NorthEast"
+		{	
+			"command"   "coach"
+			"text"      "Coach"
+		}
+		"East"
+		{
+			"command"   "nick"
+			"text"      "Nick"
+		}
+		"SouthEast"
+		{
+			"command"	"ellis"
+			"text"		"Ellis"
+		}
+		"South"
+		{
+			"command"	"rochelle"
+			"text"		"Rochelle"
+		}
+		"SouthWest"
+		{
+			"command"	"louis"
+			"text"		"Louis"
+		}
+		"West"
+		{
+			"command"   "francis"
+			"text"      "Francis"
+		}
+		"NorthWest"
+		{
+			"command"	"bill"
+			"text"		"Bill"
+		}
+	}
+
+	"specific"
+	{
+	}
+	
+	"specific2"
+	{
+	}
+
+
+	 //--------------------------------------------------------------
+
+	 //--------------------------------------------------------------
+        "Orders,Zombie,Alive"
+        {
+                "Center"
+                {
+                        "command"        "vocalize PlayerZombieTaunt"
+                        "text"                "PlayerZombieTaunt"
+                }
+        }
+
+        //--------------------------------------------------------------
+        "QA,Zombie,Alive"
+        {
+                "Center"
+                {
+                        "command"        "vocalize PlayerZombieTaunt"
+                        "text"                "PlayerZombieTaunt"
+                }
+        }
+
+        //--------------------------------------------------------------
+        "Alerts,Zombie,Alive"
+        {
+                "Center"
+                {
+                        "command"        "vocalize PlayerZombieTaunt"
+                        "text"                "PlayerZombieTaunt"
+                }
+        }
+
+}                                                                
